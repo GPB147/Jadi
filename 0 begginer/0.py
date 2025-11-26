@@ -1,3 +1,4 @@
+# Words and symbols 
 ali = "sina"
 ali.zfill(7)
 ali

@@ -1,3 +1,4 @@
+# define and pring
 a = 77
 s = 'mohhamd'
 d = "i'm"
