@@ -36,4 +36,4 @@ print("twenty_seventh = high quality and small number of comments")
 print(
     "twenty_eighth = code review and continuous integration by merging, no pushing main"
 )
-print("twenty_ninth = ")
+print("twenty_ninth = single responsibility")

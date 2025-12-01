@@ -1,4 +1,4 @@
-	# for
+# for
 variable_1 = "Morteza"
 variable_2 = "Alireza"
 variable_3 = 74
