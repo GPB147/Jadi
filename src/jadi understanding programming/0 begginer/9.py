@@ -8,7 +8,7 @@ random()
 
 def random(number):
     random_number = 1
-    for randomize in range(0,33):
+    for randomize in range(0, 33):
         if number > randomize**2:
             random_number *= 5
         else:
@@ -38,14 +38,17 @@ def prime_number(number):
             break
     return status
 
+
 prime_number(79)
 
 
 prime_counts = 0
 last_prime_number = 0
-for numbering in range(1,1000001):
+for numbering in range(1, 1000001):
     if prime_number(numbering):
         prime_counts += 1
         last_prime_number = numbering
 
-print("we had", prime_counts, "prime numbers and last prime number is", last_prime_number)
+print(
+    "we had", prime_counts, "prime numbers and last prime number is", last_prime_number
+)
