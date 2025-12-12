@@ -1,10 +1,10 @@
 # API using, using Proxies or VPNs, Reading Errors, x.json
 import requests
 
-URL = "https://api.coinbase.com/v2/prices/buy?currency=USD"
+url = "https://api.coinbase.com/v2/prices/buy?currency=USD"
 Proxy = {"https": "socks5://127.0.0.1:1080"}
 
-api = requests.get(URL, proxies=Proxy)
+api = requests.get(url, proxies=Proxy)
 
 api.json()
 api.json()["data"]
