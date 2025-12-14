@@ -1,4 +1,4 @@
-# Build in Functions(str(), int(), float(), type(), pint(), min() max(), input()), Libraries Functions, Making Funcions(def, for, while)
+# Build in Functions(str(), int(), float(), type(), pint(), min() max(), input()), Libraries Functions, Making Funcions(def)
 # Pririty(Up to down and Left to right), return(def without return give us None in last)
 First = min("Mohammad")
 Second = max("Mohammad")
