@@ -5,7 +5,7 @@ import csv
 from statistics import mean
 
 with open(
-    "E:/0 Plans/1 Job(Money)/3 Platforms/0 Git, GitHub/1 Repos/Jadi/src/Jadi/1 Basic of Python/S4/1.csv"
+    "E:/0 Plans/1 Job(Money)/7 Gain professional experience/0 Git, GitHub/1 Repos/Jadi/src/Jadi/1 Basic of Python/S4/1.csv"
 ) as f:
     reader = csv.reader(f)
     for vibration in reader:
